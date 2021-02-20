@@ -42,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6AC4CFE625DE52950022310B /* Way2SmsSystemTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Way2SmsSystemTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC4CFE625DE52950022310B /* Way2NewsSystemTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Way2NewsSystemTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC4CFF225DE52970022310B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AC4CFF525DE52970022310B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AC4CFF725DE52970022310B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		6AC4CFE725DE52950022310B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6AC4CFE625DE52950022310B /* Way2SmsSystemTask.app */,
+				6AC4CFE625DE52950022310B /* Way2NewsSystemTask.app */,
 				6AF8667B25E02EC500D42B0D /* Way2SmsSystemTaskTests.xctest */,
 			);
 			name = Products;
@@ -249,7 +249,7 @@
 			);
 			name = Way2SmsSystemTask;
 			productName = Way2SmsSystemTask;
-			productReference = 6AC4CFE625DE52950022310B /* Way2SmsSystemTask.app */;
+			productReference = 6AC4CFE625DE52950022310B /* Way2NewsSystemTask.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6AF8667A25E02EC500D42B0D /* Way2SmsSystemTaskTests */ = {
@@ -511,9 +511,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.motivate.fit.Way2SmsSystemTask;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Way2NewsSystemTask;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -530,9 +530,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.motivate.fit.Way2SmsSystemTask;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Way2NewsSystemTask;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
